@@ -1,0 +1,132 @@
+<!--pages/female/female.wxml-->
+<view class="female">
+    <view class="maininfo">
+        <view class="maininfo-top">
+            <image src="http://s11.mogucdn.com/mlcdn/5abf39/180917_6308229h16473c8722cc8k9ih6k4j_400x400.jpg_160x160.webp" />
+            <view class="top-right">
+                <view class="right-top">
+                    <view class="fensi">
+                        <text>95</text>
+                        <text>粉丝</text> 
+                    </view>
+                    <view class="guanzhu">
+                        <text>21</text>
+                        <text>关注</text> 
+                    </view>
+                </view>
+                 <view class="right-bottom">
+                    <view class="jia">
+                        <button>+关注</button>
+                    </view>
+                </view>
+            </view>
+            
+        </view>
+        <view class="maininfo-bottom">
+            <text class="t1">不正经哥斯拉宝哥</text>
+            <text class="t2">160cm 46kg</text>
+            <text class="t3">肚子小肉肉 | 佛系少女 | 时尚博主</text>
+        </view>
+    </view>
+    <view class="divider"></view>
+    <view class="mainbody">
+        <view class="item">
+            <view class="item-title">
+                <image src="http://s11.mogucdn.com/mlcdn/0ffcd9/180917_322b9jc83g1l6k3k3g9885c8ggaed_282x281.png_999x999.v1c0.100.webp" />
+                <text>Space Jenny珍妮宇航局</text>
+            </view>
+            <view class="item-image">
+                <image src="https://s3.mogucdn.com/mlcdn/c45406/181030_6i031l0e5ibl1h8g5k80405805557_2689x3483.jpg_640x999.v1c96.70.webp" />
+            </view>
+            <view class="item-zpz">
+
+                <image class="img1"  src="https://s10.mogucdn.com/mlcdn/c45406/180904_3f1ih14ie43717i596eij989hi479_44x44.png" />
+                <view class="zpz-right">
+                    <view class="zpz-p">
+                        <image src="https://s10.mogucdn.com/mlcdn/c45406/180904_1330g3ik28d11123ceakkcjibcfk6_44x44.png" />
+                        <text>评论</text>
+                    </view>
+                    <view class="zpz-z">
+                        <image src="https://s10.mogucdn.com/mlcdn/c45406/180904_0lhg7fdb0lbhi7di7f53hii41e92i_44x44.png" />
+                        <text>1</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="mainbody">
+        <view class="item">
+            <view class="item-title">
+                <image src="http://s11.mogucdn.com/mlcdn/0ffcd9/180917_322b9jc83g1l6k3k3g9885c8ggaed_282x281.png_999x999.v1c0.100.webp" />
+                <text>Space Jenny珍妮宇航局</text>
+            </view>
+            <view class="item-image">
+                <image src="https://s11.mogucdn.com/mlcdn/c45406/181030_389cdjd73dgdi817d1lflce9hebdh_1080x1440.jpg_640x999.v1c96.70.webp" />
+            </view>
+            <view class="item-zpz">
+
+                <image class="img1"  src="https://s10.mogucdn.com/mlcdn/c45406/180904_3f1ih14ie43717i596eij989hi479_44x44.png" />
+                <view class="zpz-right">
+                    <view class="zpz-p">
+                        <image src="https://s10.mogucdn.com/mlcdn/c45406/180904_1330g3ik28d11123ceakkcjibcfk6_44x44.png" />
+                        <text>评论</text>
+                    </view>
+                    <view class="zpz-z">
+                        <image src="https://s10.mogucdn.com/mlcdn/c45406/180904_0lhg7fdb0lbhi7di7f53hii41e92i_44x44.png" />
+                        <text>1</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="mainbody">
+        <view class="item">
+            <view class="item-title">
+                <image src="http://s11.mogucdn.com/mlcdn/0ffcd9/180917_322b9jc83g1l6k3k3g9885c8ggaed_282x281.png_999x999.v1c0.100.webp" />
+                <text>Space Jenny珍妮宇航局</text>
+            </view>
+            <view class="item-image">
+                <image src="https://s11.mogucdn.com/mlcdn/c45406/181030_2ld64ki33bbfa912b956h50gbl4hh_1080x1439.jpg_640x999.v1c96.70.webp" />
+            </view>
+            <view class="item-zpz">
+
+                <image class="img1"  src="https://s10.mogucdn.com/mlcdn/c45406/180904_3f1ih14ie43717i596eij989hi479_44x44.png" />
+                <view class="zpz-right">
+                    <view class="zpz-p">
+                        <image src="https://s10.mogucdn.com/mlcdn/c45406/180904_1330g3ik28d11123ceakkcjibcfk6_44x44.png" />
+                        <text>评论</text>
+                    </view>
+                    <view class="zpz-z">
+                        <image src="https://s10.mogucdn.com/mlcdn/c45406/180904_0lhg7fdb0lbhi7di7f53hii41e92i_44x44.png" />
+                        <text>1</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="mainbody">
+        <view class="item">
+            <view class="item-title">
+                <image src="http://s11.mogucdn.com/mlcdn/0ffcd9/180917_322b9jc83g1l6k3k3g9885c8ggaed_282x281.png_999x999.v1c0.100.webp" />
+                <text>Space Jenny珍妮宇航局</text>
+            </view>
+            <view class="item-image">
+                <image src="https://s3.mogucdn.com/mlcdn/c45406/181030_6i031l0e5ibl1h8g5k80405805557_2689x3483.jpg_640x999.v1c96.70.webp" />
+            </view>
+            <view class="item-zpz">
+
+                <image class="img1"  src="https://s10.mogucdn.com/mlcdn/c45406/180904_3f1ih14ie43717i596eij989hi479_44x44.png" />
+                <view class="zpz-right">
+                    <view class="zpz-p">
+                        <image src="https://s10.mogucdn.com/mlcdn/c45406/180904_1330g3ik28d11123ceakkcjibcfk6_44x44.png" />
+                        <text>评论</text>
+                    </view>
+                    <view class="zpz-z">
+                        <image src="https://s10.mogucdn.com/mlcdn/c45406/180904_0lhg7fdb0lbhi7di7f53hii41e92i_44x44.png" />
+                        <text>1</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,43 @@
+<!--pages/live/live.wxml-->
+<view class="card">
+    <view class="card-item" wx:for="{{list}}" wx:key="{{id}}" data-id="{{item.newprice}}">
+        <checkbox-group  class="radio-group"  bindchange="Change">
+            <checkbox checked="{{item.checked}}" color="red"/>{{item.name}}
+        </checkbox-group>
+        <view class="item-nr">
+            <view class="nr-cont">
+                <image src="https://s10.mogucdn.com/mlcdn/c45406/181022_48825ei6kl6c9jcgil3b4fdg9l48j_226x302.jpg" mode="aspectFill" lazy-load />
+                <view class="cont-cell">
+                    <text class="t1">{{item.title}}</text>
+                    <text class="t2">颜色：{{item.yanse}}；尺码：{{item.chima}}</text>
+                    <view class="v3">
+                        <text class="v3-t1">￥{{item.newprice}}</text>
+                        <text class="v3-t2">￥{{item.oldprice}}</text>
+                        <text class="v3-t3">x{{item.num}}</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+    <view class="divider"></view>    
+    </view>
+    
+</view>
+<view class="gouwuche">
+    <view class='dflex quanxuan'>
+        <checkbox-group class="radio-group icon1" bindchange="quanxuan">
+            <label class="radio">
+                <checkbox  checked="{{item.checked}}" color="red"/>
+            </label>
+        </checkbox-group>
+        <text>全选</text>
+    </view>
+
+    <view class='dflex total'>
+        <text class='f18'>总计:￥{{total}}</text>
+    </view>
+
+    <view class='end'>
+        <text class='bold'>去结算</text>
+    </view>
+</view>
+

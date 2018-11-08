@@ -1,0 +1,154 @@
+/* pages/female/female.wxss */
+.female{
+    width: 100%;
+}
+.maininfo{
+    width: 100%;
+    height: 400rpx;
+    box-sizing: border-box;
+    padding: 0 24rpx;
+}
+.maininfo-top{
+    display: flex;
+    padding-top: 40rpx;
+}
+.maininfo-top image{
+    width: 23%;
+    height: 160rpx;
+    border-radius: 75%;
+    margin-right: 40rpx;
+}
+.maininfo-top .top-right{
+    width: 75%;
+    height: 160rpx;
+}
+.top-right .right-top{
+    height: 80rpx;
+    width: 100%;
+    display: flex;
+}
+.right-top .fensi{
+    width: 50%;
+    text-align: center;
+    height: 80rpx;
+    line-height: 80rpx;
+    font-size: 14px;
+    color: #333;
+}
+.right-top .fensi text{
+    padding-right: 10rpx;
+}
+.right-top .guanzhu{
+    width: 50%;
+    text-align: center;
+    height: 80rpx;
+    line-height: 80rpx;
+    font-size: 14px;
+    color: #333;
+}
+.right-top .guanzhu text{
+    padding-right: 10rpx;
+}
+.right-bottom{
+    height: 70rpx;
+    width: 450rpx;
+    margin-top: 10rpx;
+}
+.right-bottom .jia{
+    padding: 10rpx 30rpx;
+}
+.right-bottom .jia button{
+    height: 60rpx;
+    line-height: 60rpx;
+    font-size: 15px;
+    color: #333;
+}
+.maininfo-bottom{
+    width: 100%;
+    height: 200rxp;
+    display: flex;
+    flex-direction: column;
+}
+.maininfo-bottom .t1{
+    font-size: 17px;
+    margin-top: 20rpx;
+}
+.maininfo-bottom .t2{
+    font-size: 14px;
+    margin-top: 20rpx;
+    color: #666;
+}
+.maininfo-bottom .t3{
+    font-size: 14px;
+    margin-top: 20rpx;
+    color: #333;
+}
+/**/
+.mainbody{
+    width: 100%;
+    padding: 0 20rpx;
+    box-sizing: border-box;
+}
+.mainbody .item{
+    width: 100%;
+}
+.item .item-title{
+    width: 400rpx;
+    height: 80rpx;
+    background: #ddd;
+    border-radius: 20rpx;
+    margin: 20rpx 10rpx;
+    text-align: center;
+    line-height: 80rpx;
+    display: table;
+}
+.item .item-title image{
+    width: 50rpx;
+    height: 50rpx;
+    vertical-align: middle;
+}
+.item .item-title text{
+    font-size: 14px;
+    color: #333;
+}
+/**/
+.item-image{
+    width: 100%;
+}
+.item-image image{
+    width: 100%;
+    height: 900rpx;
+}
+/**/
+.item-zpz{
+    width: 100%;
+    height: 80rpx;
+    margin-bottom: 20rpx;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;  
+    line-height: 80rpx;
+}
+.item-zpz .img1{
+    width: 50rpx;
+    height: 50rpx;
+    margin-top: 16rpx;
+}
+.item-zpz image{
+    width: 50rpx;
+    height: 50rpx;
+    vertical-align: middle;
+}
+.item-zpz .zpz-right{
+    display: flex;
+    font-size: 19px;
+    color: #333;
+}
+.item-zpz .zpz-right .zpz-p{
+    margin-right: 40rpx;
+}
+.item-zpz .zpz-right text{
+    margin-left: 10rpx;
+}
+
+

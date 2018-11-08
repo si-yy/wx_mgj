@@ -1,0 +1,131 @@
+<!--pages/class/class.wxml-->
+<!--搜索-->
+<view class="search">
+  <image src="/img/search-msg.png"></image>
+  <input type="text" value="衬衫" />
+  <image class="img2" src="/img/search.png" />
+  <image bindtap="gouwuche" src="/img/gou.png"></image>
+</view>
+<!--分页-->
+<view class="box">
+    <view class="box-item">
+        <text class="{{_num == 1?'active':''}}" data-num = "1" bindtap="click">正在流行</text>
+        <text class="{{_num == 2?'active':''}}" data-num = "2" bindtap="click">上衣</text>
+        <text class="{{_num == 3?'active':''}}" data-num = "3" bindtap="click">裤子</text>
+        <text class="{{_num == 4?'active':''}}" data-num = "4" bindtap="click">裙子</text>
+        <text class="{{_num == 5?'active':''}}" data-num = "5" bindtap="click">女鞋</text>
+        <text class="{{_num == 6?'active':''}}" data-num = "6" bindtap="click">男友</text>
+        <text class="{{_num == 7?'active':''}}" data-num = "7" bindtap="click">包包</text>
+        <text class="{{_num == 8?'active':''}}" data-num = "8" bindtap="click">运动</text>
+        <text class="{{_num == 9?'active':''}}" data-num = "9" bindtap="click">美妆</text>
+        <text class="{{_num == 10?'active':''}}" data-num = "10" bindtap="click">配饰</text>
+        <text class="{{_num == 11?'active':''}}" data-num = "11" bindtap="click">家具</text>
+        <text class="{{_num == 12?'active':''}}" data-num = "12" bindtap="click">百货</text>
+        <text class="{{_num == 13?'active':''}}" data-num = "13" bindtap="click">母婴</text>
+    </view>
+    <view class="box-cont">
+        <view class="cony-item">
+          <image bindtap="shopping"  src="https://s11.mogucdn.com/mlcdn/c45406/180903_3de2717i8dj6hjjifj4d5e3a28f6e_180x180.gif_200x9999.v1c7E.webp" />
+          <text>冬季上新</text>
+        </view>
+        <view class="cony-item">
+          <image bindtap="shopping"  src="https://s2.mogucdn.com/mlcdn/c45406/181016_784fld1fhai8ff0a8j7j5676kbd69_120x120.jpg_999x999.v1c0.100.webp" />
+          <text>冬季上新</text>
+        </view>
+        <view class="cony-item">
+          <image bindtap="shopping"  src="https://s2.mogucdn.com/mlcdn/c45406/181017_0le6lhjh12ggl63i124gc538icf11_120x120.jpg_999x999.v1c0.100.webp" />
+          <text>冬季上新</text>
+        </view>
+        <view class="cony-item">
+          <image bindtap="shopping"  src="https://s2.mogucdn.com/mlcdn/c45406/181017_7liclj4dac18a35ajah8c36a901j1_120x120.jpg_999x999.v1c0.100.webp" />
+          <text>冬季上新</text>
+        </view>
+        <view class="cony-item">
+          <image bindtap="shopping"  src="https://s18.mogucdn.com/mlcdn/c45406/180827_0iiehhcaaf9a594eid89b147aee0f_100x100.png_999x999.v1c0.100.webp" />
+          <text>冬季上新</text>
+        </view>
+        <view class="cony-item">
+          <image bindtap="shopping"  src="https://s17.mogucdn.com/mlcdn/c45406/181017_1ch7i2050c55b53k4ifa12g11l088_120x120.jpg_999x999.v1c0.100.webp" />
+          <text>冬季上新</text>
+        </view>
+                <view class="cony-item">
+          <image bindtap="shopping"   src="https://s11.mogucdn.com/mlcdn/c45406/180903_3de2717i8dj6hjjifj4d5e3a28f6e_180x180.gif_200x9999.v1c7E.webp" />
+          <text>冬季上新</text>
+        </view>
+        <view class="cony-item">
+          <image bindtap="shopping"  src="https://s2.mogucdn.com/mlcdn/c45406/181016_784fld1fhai8ff0a8j7j5676kbd69_120x120.jpg_999x999.v1c0.100.webp" />
+          <text>冬季上新</text>
+        </view>
+        <view class="cony-item">
+          <image bindtap="shopping"  src="https://s2.mogucdn.com/mlcdn/c45406/181017_0le6lhjh12ggl63i124gc538icf11_120x120.jpg_999x999.v1c0.100.webp" />
+          <text>冬季上新</text>
+        </view>
+        <view class="cony-item">
+          <image bindtap="shopping"  src="https://s2.mogucdn.com/mlcdn/c45406/181017_7liclj4dac18a35ajah8c36a901j1_120x120.jpg_999x999.v1c0.100.webp" />
+          <text>冬季上新</text>
+        </view>
+        <view class="cony-item">
+          <image bindtap="shopping"  src="https://s18.mogucdn.com/mlcdn/c45406/180827_0iiehhcaaf9a594eid89b147aee0f_100x100.png_999x999.v1c0.100.webp" />
+          <text>冬季上新</text>
+        </view>
+        <view class="cony-item">
+          <image bindtap="shopping"  src="https://s17.mogucdn.com/mlcdn/c45406/181017_1ch7i2050c55b53k4ifa12g11l088_120x120.jpg_999x999.v1c0.100.webp" />
+          <text>冬季上新</text>
+        </view>
+                <view class="cony-item">
+          <image bindtap="shopping"  src="https://s11.mogucdn.com/mlcdn/c45406/180903_3de2717i8dj6hjjifj4d5e3a28f6e_180x180.gif_200x9999.v1c7E.webp" />
+          <text>冬季上新</text>
+        </view>
+        <view class="cony-item">
+          <image bindtap="shopping"  src="https://s2.mogucdn.com/mlcdn/c45406/181016_784fld1fhai8ff0a8j7j5676kbd69_120x120.jpg_999x999.v1c0.100.webp" />
+          <text>冬季上新</text>
+        </view>
+        <view class="cony-item">
+          <image bindtap="shopping"  src="https://s2.mogucdn.com/mlcdn/c45406/181017_0le6lhjh12ggl63i124gc538icf11_120x120.jpg_999x999.v1c0.100.webp" />
+          <text>冬季上新</text>
+        </view>
+        <view class="cony-item">
+          <image bindtap="shopping"  src="https://s2.mogucdn.com/mlcdn/c45406/181017_7liclj4dac18a35ajah8c36a901j1_120x120.jpg_999x999.v1c0.100.webp" />
+          <text>冬季上新</text>
+        </view>
+        <view class="cony-item">
+          <image bindtap="shopping"  src="https://s18.mogucdn.com/mlcdn/c45406/180827_0iiehhcaaf9a594eid89b147aee0f_100x100.png_999x999.v1c0.100.webp" />
+          <text>冬季上新</text>
+        </view>
+        <view class="cony-item">
+          <image bindtap="shopping"  src="https://s17.mogucdn.com/mlcdn/c45406/181017_1ch7i2050c55b53k4ifa12g11l088_120x120.jpg_999x999.v1c0.100.webp" />
+          <text>冬季上新</text>
+        </view>
+                <view class="cony-item">
+          <image bindtap="shopping"  src="https://s11.mogucdn.com/mlcdn/c45406/180903_3de2717i8dj6hjjifj4d5e3a28f6e_180x180.gif_200x9999.v1c7E.webp" />
+          <text>冬季上新</text>
+        </view>
+        <view class="cony-item">
+          <image bindtap="shopping" 
+          src="https://s2.mogucdn.com/mlcdn/c45406/181016_784fld1fhai8ff0a8j7j5676kbd69_120x120.jpg_999x999.v1c0.100.webp" />
+          <text>冬季上新</text>
+        </view>
+        <view class="cony-item">
+          <image bindtap="shopping" src="https://s2.mogucdn.com/mlcdn/c45406/181017_0le6lhjh12ggl63i124gc538icf11_120x120.jpg_999x999.v1c0.100.webp" />
+          <text>冬季上新</text>
+        </view>
+    </view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,84 @@
+/* pages/class/class.wxss */
+/*搜索*/
+.search{
+    width: 100%;
+    height: 110rpx;
+    display: flex;
+    align-items: center;/*垂直对齐方式*/
+    position: relative;
+  }
+  .search input{
+    border: 1rpx solid #ccc;
+    width: 100%;
+    height: 70rpx;
+    font-size: 32rpx;
+    padding-left: 30rpx;
+    color: #B29E9E;
+    background: rgba(238,238,238,.3);
+  }
+  .search .img2{
+    position: absolute;
+    width: 50rpx;
+    top: 30rpx;
+    right: 90rpx;
+  }
+  .search image{
+    width: 75rpx;
+    height: 50rpx;
+    padding: 0 30rpx;
+    color: #ccc;
+  }
+
+/*分页*/
+.box{
+  display: flex;
+  width: 100%;
+  font-size: 14px;
+  color: #666666;
+  align-items: flex-start;
+}
+.box .box-item{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.box-item text{
+  text-align: center;
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  background-color: #F6F6F6;
+  font-weight:bold;
+}
+.box-item .active{
+  background-color: #fff;
+  color: #FF5777;
+}
+
+.box .box-cont{
+  width: 70%;
+  display: flex;
+  flex-wrap:wrap;
+  font-size: 12px;
+  color: #666666;
+}
+.box-cont .cony-item{
+  width: 33.3333%;
+  height: 200rpx;
+  text-align: center;
+  margin-top: 10rpx;
+}
+.cony-item image{
+  width: 100rpx;
+  height: 100rpx;
+  margin-top: 20rpx;
+}
+.cony-item text{
+  display: block;
+  box-sizing: border-box;
+  padding-top: 15rpx;
+}
+
+
+
+

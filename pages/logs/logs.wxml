@@ -1,0 +1,327 @@
+<!--logs.wxml 首页-->
+<!--搜索框-->
+<view class="search">
+  <image bindtap="class" src="https://s10.mogucdn.com/mlcdn/c45406/180926_3lac93lkglfd5gd4fiahedg5aad79_40x37.png"></image>
+  <input bindtap="shop" type="text" value="衬衫" />
+  <image class="img2" src="/img/search.png" />
+  <image bindtap="me" src="/img/search-msg.png"></image>
+</view>
+<!--轮播图-->
+<view class="slider">
+  <swiper autoplay interval="3500" indicator-dots indicator-active-color="#f00">
+    <swiper-item>
+      <image src="https://s2.mogucdn.com/mlcdn/c45406/181019_1lekd6f8f71a8d864cf9a2ji10g1b_750x300.jpg_999x999.v1c0.100.webp" />
+    </swiper-item>
+    <swiper-item>
+      <image src="https://s17.mogucdn.com/mlcdn/c45406/180827_025lfakj9fje3kjgec1k1d86i2f3g_750x300.jpg_999x999.v1c0.100.webp" />
+    </swiper-item>
+    <swiper-item>
+      <image src="https://s11.mogucdn.com/mlcdn/c45406/181017_3ccjl5439a0di79iabc1e2ld59326_750x300.png_999x999.v1c0.100.webp" />
+    </swiper-item> 
+  </swiper>
+</view>
+<!--宫格-->
+<view class="index-nav">
+  <navigator class="nav-item">
+       <image bindtap="me" src="https://s10.mogucdn.com/mlcdn/c45406/180731_4hi3fb9jil564ae43l0a3ckdjb2f2_150x150.jpg_640x640.v1cAC.40.webp"></image>
+       <text>充值中心</text>
+  </navigator>
+  <navigator class="nav-item">
+       <image src="https://s10.mogucdn.com/mlcdn/c45406/181012_4i9lf8g0jbibeff7j1k30jhdjdi9h_150x150.jpg_640x640.v1cAC.40.webp"></image>
+       <text>29元任选</text>
+  </navigator>
+  <navigator class="nav-item">
+       <image src="https://s10.mogucdn.com/mlcdn/c45406/180925_49k9a7d17il0jakh8e9kh4e728iid_150x150.jpg_640x640.v1cAC.40.webp"></image>
+       <text>限时快枪</text>
+  </navigator>
+  <navigator class="nav-item">
+       <image src="https://s10.mogucdn.com/mlcdn/c45406/180925_856ibaled2043iblg1320be5ld94a_150x150.jpg_640x640.v1cAC.40.webp"></image>
+       <text>人气女装</text>
+  </navigator>
+  <navigator class="nav-item">
+       <image src="https://s3.mogucdn.com/mlcdn/c45406/171128_520075a1kdfcec662f0d1he68k06l_150x150.png_640x640.v1cAC.40.webp"></image>
+       <text>签到有礼</text>
+  </navigator>
+  <navigator class="nav-item">
+       <image src="https://s10.mogucdn.com/mlcdn/c45406/180925_22i4d2i1gla3hdh5c8hle591be3ba_150x150.jpg_640x640.v1cAC.40.webp"></image>
+       <text>当季热卖</text>
+  </navigator>
+  <navigator class="nav-item">
+       <image src="https://s10.mogucdn.com/mlcdn/c45406/180925_8fkbjakj5e69ikc3kd0l0e7lk67b9_150x150.jpg_640x640.v1cAC.40.webp"></image>
+       <text>当季热卖</text>
+  </navigator>
+  <navigator class="nav-item">
+       <image src="https://s10.mogucdn.com/mlcdn/c45406/180925_1a9lcke5g1d5hf35idkai39alhki4_150x150.jpg_640x640.v1cAC.40.webp"></image>
+       <text>TOP鞋包</text>
+  </navigator>
+  <navigator class="nav-item">
+       <image src="https://s10.mogucdn.com/mlcdn/c45406/180925_1a9lcke5g1d5hf35idkai39alhki4_150x150.jpg_640x640.v1cAC.40.webp"></image>
+       <text>9.9专区</text>
+  </navigator>
+</view>
+<!--分类-->
+<view class="divider"></view>
+<view class="index-class">
+  <navigator class="class-item">发现</navigator> 
+  <navigator class="class-item">关注</navigator> 
+  <navigator class="class-item">排行榜</navigator> 
+</view>
+<!--内容-->
+<view class="index-content">
+  <view class="content-item">
+    <view class="item-upper"  bindtap="female">
+      <image src="https://s11.mogucdn.com/mlcdn/5abf39/181005_8afa45586fk6ij82h0342df8f99d0_400x400.jpg" class="upper-one" />
+      <view class="upper-two"><navigator>陈雅丽</navigator><text>演员</text></view>
+      <view class="upper-three"><text>第1名</text></view>
+    </view>
+    <view class="item-in"   bindtap="female">
+      <navigator>复古连体裤～ 搭配了vans 和袜子外露的穿法～ 是不是很有感觉？❤️ 是马里奥妹妹雅丽本人无误😜</navigator>
+    </view>
+    <view class="item-lower"   bindtap="female">
+      <navigator>
+        <image src="https://s5.mogucdn.com/mlcdn/c45406/181019_333l6ej9ahh7i0dc5i0902ll950dj_1124x1686.png_640x999.v1c96.40.webp" />
+      </navigator>
+      <navigator>
+        <image src="https://s5.mogucdn.com/mlcdn/c45406/181014_26f847dj2lhle9kk6k860df567i5b_1124x1688.png_640x999.v1c96.40.webp" />
+      </navigator>
+      <navigator>
+        <image src="https://s11.mogucdn.com/mlcdn/c45406/181011_3g45272dl8igfb7047c43286gddcd_1124x1500.png_640x999.v1c96.40.webp" />
+      </navigator>  
+    </view>
+    <view class="item-bottom">
+      <navigator>
+        <image src="https://s11.mogucdn.com/mlcdn/0ffcd9/180724_056a1gk1j42d47a4bhik7liae0ijl_364x327.png_400x9999.v1c7E.webp" />
+        <text>VANS</text>
+      </navigator>
+      <navigator>
+        <image src="https://s11.mogucdn.com/mlcdn/0ffcd9/180831_76i4gcdf54le01f3blef22lc8adg5_567x567.png_400x9999.v1c7E.webp" />
+        <text>adidas</text>
+      </navigator>
+      <navigator>
+        <image src="https://s3.mogucdn.com/mlcdn/0ffcd9/180917_18ei335aj37k8hgi886cjjd6bi8fa_232x231.png_999x999.v1c0.100.webp" />
+        <text>CHANEL</text>
+      </navigator>
+      <navigator>
+        <image src="https://s3.mogucdn.com/mlcdn/0ffcd9/180828_1b5e0feik38hhh05i6fkbije9eice_337x337.png_400x9999.v1c7E.webp" />
+        <text>VNOOK</text>
+      </navigator>
+    </view>
+  </view>
+  <view class="content-item">
+    <view class="item-upper"   bindtap="female">
+      <image src="https://s11.mogucdn.com/mlcdn/5abf39/180907_6e5a3dh39ie4j7id4di0098k3h30i_400x400.jpg" class="upper-one" />
+      <view class="upper-two"><navigator>范儿</navigator><text>模特</text></view>
+      <view class="upper-three"><text>第2名</text></view>
+    </view>
+    <view class="item-in"   bindtap="female">
+      <navigator>双面呢大衣款式上不需要很多变化 长长短短有个五六件换着穿已经足够了 且高品质的大衣 养护得当</navigator>
+    </view>
+    <view class="item-lower"  bindtap="female">
+      <navigator>
+        <image src="https://s11.mogucdn.com/mlcdn/c45406/181018_5kj84b7dfffc77g6dab9d81j5885a_1242x1656.png_640x999.v1c96.40.webp" />
+      </navigator>
+      <navigator>
+        <image src="https://s11.mogucdn.com/mlcdn/c45406/181018_5jb8i6i45e81lhihklj64h36658hf_1242x1656.png_640x999.v1c96.40.webp" />
+      </navigator>
+      <navigator>
+        <image src="https://s11.mogucdn.com/mlcdn/c45406/181018_3hkb1736e39jc56a18a2e17edfajk_1242x1242.png_640x999.v1c96.40.webp" />
+      </navigator>  
+    </view>
+    <view class="item-bottom">
+      <navigator>
+        <image src="https://s11.mogucdn.com/mlcdn/0ffcd9/180920_8gfh25b4li3g6629h47hf72i20660_205x206.png_999x999.v1c0.100.webp" />
+        <text>URBAN</text>
+      </navigator>
+      <navigator>
+        <image src="https://s3.mogucdn.com/mlcdn/0ffcd9/180723_251aje33k834bd72g1232l401g4jk_634x566.png_400x9999.v1c7E.webp" />
+        <text>NIKE</text>
+      </navigator>
+      <navigator>
+        <image src="https://s11.mogucdn.com/mlcdn/0ffcd9/180828_1hjh89ccic3l1j85ddda1hdk33kig_400x400.jpg_400x9999.v1c7E.webp" />
+        <text>拉夏贝尔</text>
+      </navigator>
+      <navigator>
+        <image src="https://s3.mogucdn.com/mlcdn/0ffcd9/180827_1761ki5jj1d2af2fhj5k2e7h68499_454x454.png_400x9999.v1c7E.webp" />
+        <text>UGG</text>
+      </navigator>
+    </view>
+  </view>
+  <view class="content-item">
+    <view class="item-upper"  bindtap="female">
+      <image src="https://s11.mogucdn.com/mlcdn/5abf39/181005_8afa45586fk6ij82h0342df8f99d0_400x400.jpg" class="upper-one" />
+      <view class="upper-two"><navigator>陈雅丽</navigator><text>演员</text></view>
+      <view class="upper-three"><text>第1名</text></view>
+    </view>
+    <view class="item-in"  bindtap="female">
+      <navigator>复古连体裤～ 搭配了vans 和袜子外露的穿法～ 是不是很有感觉？❤️ 是马里奥妹妹雅丽本人无误😜</navigator>
+    </view>
+    <view class="item-lower"  bindtap="female">
+      <navigator>
+        <image src="https://s5.mogucdn.com/mlcdn/c45406/181019_333l6ej9ahh7i0dc5i0902ll950dj_1124x1686.png_640x999.v1c96.40.webp" />
+      </navigator>
+      <navigator>
+        <image src="https://s5.mogucdn.com/mlcdn/c45406/181014_26f847dj2lhle9kk6k860df567i5b_1124x1688.png_640x999.v1c96.40.webp" />
+      </navigator>
+      <navigator>
+        <image src="https://s11.mogucdn.com/mlcdn/c45406/181011_3g45272dl8igfb7047c43286gddcd_1124x1500.png_640x999.v1c96.40.webp" />
+      </navigator>  
+    </view>
+    <view class="item-bottom">
+      <navigator>
+        <image src="https://s11.mogucdn.com/mlcdn/0ffcd9/180724_056a1gk1j42d47a4bhik7liae0ijl_364x327.png_400x9999.v1c7E.webp" />
+        <text>VANS</text>
+      </navigator>
+      <navigator>
+        <image src="https://s11.mogucdn.com/mlcdn/0ffcd9/180831_76i4gcdf54le01f3blef22lc8adg5_567x567.png_400x9999.v1c7E.webp" />
+        <text>adidas</text>
+      </navigator>
+      <navigator>
+        <image src="https://s3.mogucdn.com/mlcdn/0ffcd9/180917_18ei335aj37k8hgi886cjjd6bi8fa_232x231.png_999x999.v1c0.100.webp" />
+        <text>CHANEL</text>
+      </navigator>
+      <navigator>
+        <image src="https://s3.mogucdn.com/mlcdn/0ffcd9/180828_1b5e0feik38hhh05i6fkbije9eice_337x337.png_400x9999.v1c7E.webp" />
+        <text>VNOOK</text>
+      </navigator>
+    </view>
+  </view>
+  <view class="content-item">
+    <view class="item-upper"  bindtap="female">
+      <image src="https://s11.mogucdn.com/mlcdn/5abf39/180907_6e5a3dh39ie4j7id4di0098k3h30i_400x400.jpg" class="upper-one" />
+      <view class="upper-two"><navigator>范儿</navigator><text>模特</text></view>
+      <view class="upper-three"><text>第2名</text></view>
+    </view>
+    <view class="item-in"  bindtap="female">
+      <navigator>双面呢大衣款式上不需要很多变化 长长短短有个五六件换着穿已经足够了 且高品质的大衣 养护得当</navigator>
+    </view>
+    <view class="item-lower"  bindtap="female">
+      <navigator>
+        <image src="https://s11.mogucdn.com/mlcdn/c45406/181018_5kj84b7dfffc77g6dab9d81j5885a_1242x1656.png_640x999.v1c96.40.webp" />
+      </navigator>
+      <navigator>
+        <image src="https://s11.mogucdn.com/mlcdn/c45406/181018_5jb8i6i45e81lhihklj64h36658hf_1242x1656.png_640x999.v1c96.40.webp" />
+      </navigator>
+      <navigator>
+        <image src="https://s11.mogucdn.com/mlcdn/c45406/181018_3hkb1736e39jc56a18a2e17edfajk_1242x1242.png_640x999.v1c96.40.webp" />
+      </navigator>  
+    </view>
+    <view class="item-bottom">
+      <navigator>
+        <image src="https://s11.mogucdn.com/mlcdn/0ffcd9/180920_8gfh25b4li3g6629h47hf72i20660_205x206.png_999x999.v1c0.100.webp" />
+        <text>URBAN</text>
+      </navigator>
+      <navigator>
+        <image src="https://s3.mogucdn.com/mlcdn/0ffcd9/180723_251aje33k834bd72g1232l401g4jk_634x566.png_400x9999.v1c7E.webp" />
+        <text>NIKE</text>
+      </navigator>
+      <navigator>
+        <image src="https://s11.mogucdn.com/mlcdn/0ffcd9/180828_1hjh89ccic3l1j85ddda1hdk33kig_400x400.jpg_400x9999.v1c7E.webp" />
+        <text>拉夏贝尔</text>
+      </navigator>
+      <navigator>
+        <image src="https://s3.mogucdn.com/mlcdn/0ffcd9/180827_1761ki5jj1d2af2fhj5k2e7h68499_454x454.png_400x9999.v1c7E.webp" />
+        <text>UGG</text>
+      </navigator>
+    </view>
+  </view>
+  <view class="content-item">
+    <view class="item-upper"  bindtap="female">
+      <image src="https://s11.mogucdn.com/mlcdn/5abf39/181005_8afa45586fk6ij82h0342df8f99d0_400x400.jpg" class="upper-one" />
+      <view class="upper-two"><navigator>陈雅丽</navigator><text>演员</text></view>
+      <view class="upper-three"><text>第1名</text></view>
+    </view>
+    <view class="item-in"  bindtap="female">
+      <navigator>复古连体裤～ 搭配了vans 和袜子外露的穿法～ 是不是很有感觉？❤️ 是马里奥妹妹雅丽本人无误😜</navigator>
+    </view>
+    <view class="item-lower"  bindtap="female">
+      <navigator>
+        <image src="https://s5.mogucdn.com/mlcdn/c45406/181019_333l6ej9ahh7i0dc5i0902ll950dj_1124x1686.png_640x999.v1c96.40.webp" />
+      </navigator>
+      <navigator>
+        <image src="https://s5.mogucdn.com/mlcdn/c45406/181014_26f847dj2lhle9kk6k860df567i5b_1124x1688.png_640x999.v1c96.40.webp" />
+      </navigator>
+      <navigator>
+        <image src="https://s11.mogucdn.com/mlcdn/c45406/181011_3g45272dl8igfb7047c43286gddcd_1124x1500.png_640x999.v1c96.40.webp" />
+      </navigator>  
+    </view>
+    <view class="item-bottom">
+      <navigator>
+        <image src="https://s11.mogucdn.com/mlcdn/0ffcd9/180724_056a1gk1j42d47a4bhik7liae0ijl_364x327.png_400x9999.v1c7E.webp" />
+        <text>VANS</text>
+      </navigator>
+      <navigator>
+        <image src="https://s11.mogucdn.com/mlcdn/0ffcd9/180831_76i4gcdf54le01f3blef22lc8adg5_567x567.png_400x9999.v1c7E.webp" />
+        <text>adidas</text>
+      </navigator>
+      <navigator>
+        <image src="https://s3.mogucdn.com/mlcdn/0ffcd9/180917_18ei335aj37k8hgi886cjjd6bi8fa_232x231.png_999x999.v1c0.100.webp" />
+        <text>CHANEL</text>
+      </navigator>
+      <navigator>
+        <image src="https://s3.mogucdn.com/mlcdn/0ffcd9/180828_1b5e0feik38hhh05i6fkbije9eice_337x337.png_400x9999.v1c7E.webp" />
+        <text>VNOOK</text>
+      </navigator>
+    </view>
+  </view>
+  <view class="content-item">
+    <view class="item-upper"  bindtap="female">
+      <image src="https://s11.mogucdn.com/mlcdn/5abf39/180907_6e5a3dh39ie4j7id4di0098k3h30i_400x400.jpg" class="upper-one" />
+      <view class="upper-two"><navigator>范儿</navigator><text>模特</text></view>
+      <view class="upper-three"><text>第2名</text></view>
+    </view>
+    <view class="item-in"  bindtap="female">
+      <navigator>双面呢大衣款式上不需要很多变化 长长短短有个五六件换着穿已经足够了 且高品质的大衣 养护得当</navigator>
+    </view>
+    <view class="item-lower"  bindtap="female">
+      <navigator>
+        <image src="https://s11.mogucdn.com/mlcdn/c45406/181018_5kj84b7dfffc77g6dab9d81j5885a_1242x1656.png_640x999.v1c96.40.webp" />
+      </navigator>
+      <navigator>
+        <image src="https://s11.mogucdn.com/mlcdn/c45406/181018_5jb8i6i45e81lhihklj64h36658hf_1242x1656.png_640x999.v1c96.40.webp" />
+      </navigator>
+      <navigator>
+        <image src="https://s11.mogucdn.com/mlcdn/c45406/181018_3hkb1736e39jc56a18a2e17edfajk_1242x1242.png_640x999.v1c96.40.webp" />
+      </navigator>  
+    </view>
+    <view class="item-bottom">
+      <navigator>
+        <image src="https://s11.mogucdn.com/mlcdn/0ffcd9/180920_8gfh25b4li3g6629h47hf72i20660_205x206.png_999x999.v1c0.100.webp" />
+        <text>URBAN</text>
+      </navigator>
+      <navigator>
+        <image src="https://s3.mogucdn.com/mlcdn/0ffcd9/180723_251aje33k834bd72g1232l401g4jk_634x566.png_400x9999.v1c7E.webp" />
+        <text>NIKE</text>
+      </navigator>
+      <navigator>
+        <image src="https://s11.mogucdn.com/mlcdn/0ffcd9/180828_1hjh89ccic3l1j85ddda1hdk33kig_400x400.jpg_400x9999.v1c7E.webp" />
+        <text>拉夏贝尔</text>
+      </navigator>
+      <navigator>
+        <image src="https://s3.mogucdn.com/mlcdn/0ffcd9/180827_1761ki5jj1d2af2fhj5k2e7h68499_454x454.png_400x9999.v1c7E.webp" />
+        <text>UGG</text>
+      </navigator>
+    </view>
+  </view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

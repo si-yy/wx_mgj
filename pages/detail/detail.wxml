@@ -1,0 +1,215 @@
+<!--pages/detail/detail.wxml-->
+<!--轮播图-->
+<view class="slider">
+  <image class="img1" src="https://s5.mogucdn.com/mlcdn/c45406/180901_1lhi91jj27db463kd5aad25c562ik_640x900.jpg_640x960.v1cAC.70.webp" mode="aspectFill" lazy-load />
+  <image src="https://s11.mogucdn.com/mlcdn/c45406/180901_2fi425d7lg820523ae075jc53a6de_640x900.jpg_640x960.v1cAC.70.webp" mode="aspectFill" lazy-load />
+  <image src="https://s11.mogucdn.com/mlcdn/c45406/180901_1c5if3a0gb59e03lf9ikdke281fb7_640x900.jpg_640x960.v1cAC.70.webp" mode="aspectFill" lazy-load />
+</view>
+<!--价格-->
+<view class="price">
+  <view>￥<text class="newprice">37.90</text></view>
+  <view class="oldprice">￥54.20</view>
+</view>
+<!--名称-->
+<view class="ddd">
+  <text>2018新款ins超火假两件上衣bfulzzang韩版春秋装中长款宽松连帽套头卫衣女学生</text>
+</view>
+<!--地址-->
+<view class="diz">
+  <view class="v1">免邮费</view>
+  <view class="v2">福建省三明市</view>
+</view>
+<!--空白区域-->
+<view class="divider"></view>
+<view class="cell">
+  <navigator class="cell-item arrow">
+    <text class="size">请选择：颜色 尺码</text>
+  </navigator>
+</view>
+<!--评价-->
+<view class="divider"></view>
+<view class="cell">
+  <navigator class="cell-item arrow evaluate">
+    买家评价 3 | 销量 23078
+  </navigator>
+</view>
+<view class="region">
+  <view class="region-item">
+    <view class="region-top">
+      <image src="https://s11.mogucdn.com/p1/160105/idid_ifrwenjuhfsggntfguzdambqhayde_160x160.jpg_48x48.webp" />
+      <text class="title">媚***妈</text>
+    </view>
+    <view class="region-cont">
+      <text class="t1">这个价钱就是这样的质量了</text>
+      <text class="t2">2018-10-22</text>
+    </view>
+  </view>
+</view>
+
+
+<view class="region">
+  <view class="region-item">
+    <view class="region-top">
+      <image src="https://s11.mogucdn.com/p1/160105/idid_ifrwenjuhfsggntfguzdambqhayde_160x160.jpg_48x48.webp" />
+      <text class="title">媚***妈</text>
+    </view>
+    <view class="region-cont">
+      <text class="t1">这个价钱就是这样的质量了</text>
+      <text class="t2">2018-10-22</text>
+    </view>
+  </view>
+</view>
+
+<!--店铺-->
+<view class="divider"></view>
+<view class="shop">
+  <view class="shop-top">
+    <image src="https://s11.mogucdn.com/mlcdn/c45406/171205_00hgj944hi76ci60hikge39ai9hd0_200x200.jpg_100x100.webp" />
+    <view class="shop-name">
+      <text>小资家女装</text>
+      <text class="t2">★★★★★  </text>
+    </view>
+    <view class="shop-store">
+      <button>进店</button>
+    </view>
+  </view>
+  <view class="shop-bottom">
+    <view>
+      <text>148.3万</text>
+      <text>总销量</text>
+    </view>
+    <view class="zhong">
+      <text>5497</text>
+      <text>收藏数</text>
+    </view>
+    <view>
+      <text>描述相符4.79</text>
+      <text>质量满意4.79</text>
+    </view>
+  </view> 
+</view>
+
+<!--详情      参数      推荐-->
+<view class="divider"></view>
+<view class="xq-title">图文详情</view>
+<view class="xq">
+  <view class="xian">
+    <i class="yuan"></i>
+  </view>
+  <view class="text">0930新款秋冬女装甜美百搭时尚大码显瘦慵懒风厚款毛衣韩版女学生闺蜜装半身裙皮裙套装两件套</view>
+  <view class="xian2">
+    <i class="yuan2"></i>
+  </view>
+  <view class="xq-sub">
+    <text>穿着效果</text>
+    <image src="https://s3.mogucdn.com/mlcdn/55cf19/180930_2b63h93aclbj0lbak1ghg5j52811e_800x799.jpg_468x468.webp" />
+    <image src="https://s5.mogucdn.com/mlcdn/55cf19/180930_7a0ekc55c4c24ea0e2l2bbl40hkbb_800x799.jpg_468x468.webp" />
+    <image src="https://s3.mogucdn.com/mlcdn/55cf19/180930_8c66c9a20ii313fae5a7dh84jl4fl_800x799.jpg_468x468.webp" />
+  </view>
+</view>
+<view class="xq-title">商品详情</view>
+<view class="cs">
+  <view class="cell">
+    <view class="cell-item">
+      <text class="tt">尺码</text>
+      <text>袖长</text>
+      <text>衣长</text>
+      <text>裙长</text>
+    </view>
+    <view class="cell-item">
+      <text class="tt">均码</text>
+      <text>47</text>
+      <text>58</text>
+      <text>40</text>
+    </view>
+    <view class="cell-item">
+      <text class="tt">图案</text>
+      <text>条纹 斑马纹</text>
+    </view>
+    <view class="cell-item">
+      <text class="tt">材质</text>
+      <text>针织</text>
+    </view>
+  </view>
+</view>
+<view class="xq-title">热卖推荐</view>
+<view class="tj">
+  <view class="tj-cont">
+    <view class="tj-one">
+      <image src="https://s11.mogucdn.com/mlcdn/c45406/170814_3k0ebi6g8f5hakg966c977dhbffb4_640x960.jpg_320x999.webp" />
+      <text class="tj-title">2018秋装新款女装甜美百搭时尚姐妹装气质连衣裙韩版女学生闺蜜装大码显瘦灯芯绒背心马甲套装</text>
+      <text class="tj-price">￥76</text>
+    </view>
+    <view class="tj-one">
+      <image src="https://s11.mogucdn.com/mlcdn/c45406/170814_3k0ebi6g8f5hakg966c977dhbffb4_640x960.jpg_320x999.webp" />
+      <text class="tj-title">2018秋装新款女装甜美百搭时尚姐妹装气质连衣裙韩版女学生闺蜜装大码显瘦灯芯绒背心马甲套装</text>
+      <text class="tj-price">￥76</text>
+    </view>
+    <view class="tj-one">
+      <image src="https://s11.mogucdn.com/mlcdn/c45406/170814_3k0ebi6g8f5hakg966c977dhbffb4_640x960.jpg_320x999.webp" />
+      <text class="tj-title">2018秋装新款女装甜美百搭时尚姐妹装气质连衣裙韩版女学生闺蜜装大码显瘦灯芯绒背心马甲套装</text>
+      <text class="tj-price">￥76</text>
+    </view>
+  </view>
+  <view class="tj-cont">
+    <view class="tj-one">
+      <image src="https://s11.mogucdn.com/mlcdn/c45406/170814_3k0ebi6g8f5hakg966c977dhbffb4_640x960.jpg_320x999.webp" />
+      <text class="tj-title">2018秋装新款女装甜美百搭时尚姐妹装气质连衣裙韩版女学生闺蜜装大码显瘦灯芯绒背心马甲套装</text>
+      <text class="tj-price">￥76</text>
+    </view>
+    <view class="tj-one">
+      <image src="https://s11.mogucdn.com/mlcdn/c45406/170814_3k0ebi6g8f5hakg966c977dhbffb4_640x960.jpg_320x999.webp" />
+      <text class="tj-title">2018秋装新款女装甜美百搭时尚姐妹装气质连衣裙韩版女学生闺蜜装大码显瘦灯芯绒背心马甲套装</text>
+      <text class="tj-price">￥76</text>
+    </view>
+    <view class="tj-one">
+      <image src="https://s11.mogucdn.com/mlcdn/c45406/170814_3k0ebi6g8f5hakg966c977dhbffb4_640x960.jpg_320x999.webp" />
+      <text class="tj-title">2018秋装新款女装甜美百搭时尚姐妹装气质连衣裙韩版女学生闺蜜装大码显瘦灯芯绒背心马甲套装</text>
+      <text class="tj-price">￥76</text>
+    </view>
+  </view>
+    <view class="tj-cont">
+    <view class="tj-one">
+      <image src="https://s11.mogucdn.com/mlcdn/c45406/170814_3k0ebi6g8f5hakg966c977dhbffb4_640x960.jpg_320x999.webp" />
+      <text class="tj-title">2018秋装新款女装甜美百搭时尚姐妹装气质连衣裙韩版女学生闺蜜装大码显瘦灯芯绒背心马甲套装</text>
+      <text class="tj-price">￥76</text>
+    </view>
+    <view class="tj-one">
+      <image src="https://s11.mogucdn.com/mlcdn/c45406/170814_3k0ebi6g8f5hakg966c977dhbffb4_640x960.jpg_320x999.webp" />
+      <text class="tj-title">2018秋装新款女装甜美百搭时尚姐妹装气质连衣裙韩版女学生闺蜜装大码显瘦灯芯绒背心马甲套装</text>
+      <text class="tj-price">￥76</text>
+    </view>
+    <view class="tj-one">
+      <image src="https://s11.mogucdn.com/mlcdn/c45406/170814_3k0ebi6g8f5hakg966c977dhbffb4_640x960.jpg_320x999.webp" />
+      <text class="tj-title">2018秋装新款女装甜美百搭时尚姐妹装气质连衣裙韩版女学生闺蜜装大码显瘦灯芯绒背心马甲套装</text>
+      <text class="tj-price">￥76</text>
+    </view>
+  </view>
+</view>
+
+<!--底部-->
+<view class="footer">
+  <navigator class="f1">
+    <image src="/img/dian (1).png" />
+    <text>收藏</text>
+  </navigator>
+  <navigator class="f1">
+    <image src="/img/dian (3).png" />
+    <text>小店</text>
+  </navigator>
+  <navigator class="f3">加入购物车</navigator>
+  <navigator class="f4">立即购买</navigator>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+

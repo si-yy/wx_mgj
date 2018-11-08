@@ -1,0 +1,207 @@
+/* pages/shopping/shopping.wxss */
+/*搜索*/
+.search{
+    width: 100%;
+    height: 110rpx;
+    display: flex;
+    align-items: center;/*垂直对齐方式*/
+    position: relative;
+    border-bottom: 1rpx solid #ccc;
+    margin-bottom: 20rpx;
+  }
+  .search input{
+    border: 1rpx solid #ccc;
+    width: 100%;
+    height: 70rpx;
+    font-size: 32rpx;
+    padding-left: 30rpx;
+    color: #B29E9E;
+    background: rgba(238,238,238,.3);
+  }
+  .search .img2{
+    position: absolute;
+    width: 50rpx;
+    top: 30rpx;
+    right: 90rpx;
+  }
+  .search image{
+    width: 75rpx;
+    height: 50rpx;
+    padding: 0 30rpx;
+  }
+/*福利*/
+
+.fuli{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;    position: relative;
+}
+.fuli .fuli-item{
+    width: 25%;
+    padding: 0 10rpx;
+}
+.fuli .fuli-item image{
+    width: 100%;
+    height: 220rpx;    
+
+}
+.fuli .fuli-item text{
+    font-size: 14px;
+    color: #000;
+    position: absolute;
+}
+.fuli .fuli-item .text1{
+    bottom:20rpx;
+    left: 35rpx;
+}
+.fuli .fuli-item .text2{
+    bottom: 20rpx;
+    left: 220rpx;
+}.fuli .fuli-item .text3{
+    bottom: 20rpx;
+    left: 410rpx;
+}.fuli .fuli-item .text4{
+    bottom: 20rpx;
+    left: 600rpx;
+}
+
+/*宫格*/
+.index-nav{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .index-nav .nav-item{
+    height: 200rpx;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  .index-nav .nav-item text{
+    padding-top:10rpx; 
+  }
+  .index-nav image{
+    width: 80rpx;
+    height: 80rpx;
+  }
+
+/*轮播*/
+  .shop-banner{
+      width: 100%;
+      height:350rpx;   /*图片测量出结果*/
+  }
+  .shop-banner swiper{
+      width: 100%;
+      height: 350rpx;
+  }
+  .shop-banner image{
+    width: 50%;
+    box-sizing: border-box;
+    padding-left: 15rpx;
+  }
+/*商品列表*/
+.shoplist .img1{
+    width: 100%;
+    height: 70rpx;
+}
+/*商品*/
+.shoplist .list-item{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.list-item .item1{
+    width: 50%;
+    margin-bottom:10rpx;
+}
+.list-item .item1 image{
+    width: 100%;
+    height: 450rpx;
+    box-sizing: border-box;
+    padding-left: 10rpx;
+    padding-right: 10rpx;
+}
+.item1 .item-shou{
+    position: absolute;
+    width: 150rpx;
+    height: 60rpx;
+    text-align: center;
+    line-height: 60rpx;
+    font-size: 14px;
+    background: rgba(238,238,238,.3);
+    top: 370rpx;
+    left: 10rpx;
+}
+.item1 .item-title{
+    display: block;
+    font-size: 13px;
+    color: #333;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 10rpx;
+    overflow: hidden;   
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.item1 .item-price{
+    display: inline-block;
+    width: 60%;
+    box-sizing: border-box;
+    padding-left: 10rpx;
+    margin-top: 5rpx;
+    font-size: 13px;
+    color: #333;
+    overflow: hidden;
+}
+.item1 .item-cang{
+    width: 40%;
+    box-sizing: border-box;
+    padding-top: 5rpx;
+    padding-left: 35rpx;
+    font-size: 13px;
+    display: inline-block;
+    color: #333;
+    overflow: hidden;
+}
+.item1 button{
+    color: #FFFFFF;
+    background-color: #FF5777;
+    width: 95%;
+    height: 50rpx;
+    line-height: 50rpx;
+    border-radius: 2rpx;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5rpx;
+    margin-bottom: 5rpx;
+    overflow: hidden;
+}
+
+/*没有更多了*/
+.meiyou{
+    font-size: 14px;
+    width: 100%;
+    height: 60rpx;
+    text-align: center;
+    line-height: 60rpx;
+    border-bottom: 1rpx solid #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

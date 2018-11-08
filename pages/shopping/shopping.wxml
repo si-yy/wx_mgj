@@ -1,0 +1,142 @@
+<!--pages/shopping/shopping.wxml-->
+<!--所搜-->
+<view class="search">
+  <image bindtap="class" src="https://s10.mogucdn.com/mlcdn/c45406/180926_3lac93lkglfd5gd4fiahedg5aad79_40x37.png"></image>
+  <input type="text" value="衬衫" />
+  <image class="img2" src="/img/search.png" />
+  <image src="/img/search-msg.png"></image>
+</view>
+<!--福利-->
+<view class="fuli">
+    <navigator class="fuli-item">
+        <image src="https://s11.mogucdn.com/mlcdn/1689c6/180813_5aii555e5dfcb1led4d944jhh2i9k_210x280.png" />
+        <text class="text1">限时快抢</text>
+    </navigator>
+    <navigator class="fuli-item">
+        <image src="https://s10.mogucdn.com/mlcdn/c45406/181018_5ilhialjik7aa89klj5i12i928hd0_165x165.jpg" />
+        <text class="text2">热销榜单</text>
+    </navigator>
+    <navigator class="fuli-item">
+        <image src="https://s10.mogucdn.com/mlcdn/c45406/180918_57alkhb6252668g0de89718e38l3f_165x165.png" />
+        <text class="text3">超级福利</text>
+    </navigator>
+    <navigator class="fuli-item">
+        <image src="https://s10.mogucdn.com/mlcdn/c45406/181016_5deb6kfcllbdg7da2kj1ihbbc3lh2_165x165.jpg" />
+        <text class="text4">新品发现</text>
+    </navigator>
+</view>
+<!--宫格-->
+<view class="index-nav">
+  <navigator class="nav-item">
+       <image src="https://s10.mogucdn.com/mlcdn/c45406/180827_477g91hi2lbh9560j6ic857cdkjd9_100x100.png_640x640.v1cAC.40.webp"></image>
+       <text>女装</text>
+  </navigator>
+  <navigator class="nav-item">
+       <image src="https://s10.mogucdn.com/mlcdn/c45406/180827_86fc528icabiihegg5e4ig6135k7d_100x100.jpg_640x640.v1cAC.40.webp"></image>
+       <text>上衣</text>
+  </navigator>
+  <navigator class="nav-item">
+       <image src="https://s10.mogucdn.com/mlcdn/c45406/180831_4kbi2ad3902i0ic00140c40iha0el_100x100.jpg_640x640.v1cAC.40.webp"></image>
+       <text>裙子</text>
+  </navigator>
+  <navigator class="nav-item">
+       <image src="https://s10.mogucdn.com/mlcdn/c45406/180827_6ei7k70gajc9bhdg5kakh257a8h6c_100x100.png_640x640.v1cAC.40.webp"></image>
+       <text>裤子</text>
+  </navigator>
+  <navigator class="nav-item">
+       <image src="https://s10.mogucdn.com/mlcdn/c45406/180903_4d68447i8h71eljk1gfdhkccfjbba_180x180.jpg_640x640.v1cAC.40.webp"></image>
+       <text>套装</text>
+  </navigator>
+  <navigator class="nav-item">
+       <image src="https://s10.mogucdn.com/mlcdn/c45406/180827_77a9aie7hk50f36g5f7kh9hkb71i4_100x100.png_640x640.v1cAC.40.webp"></image>
+       <text>女鞋</text>
+  </navigator>
+  <navigator class="nav-item">
+       <image src="https://s10.mogucdn.com/mlcdn/c45406/180827_82el2jcc7klj224ika7lfk91d6697_100x100.png_640x640.v1cAC.40.webp"></image>
+       <text>包配</text>
+  </navigator>
+  <navigator class="nav-item">
+       <image src="https://s10.mogucdn.com/mlcdn/c45406/180913_2f65l7aie02jei4l36d93iaa655dc_100x100.jpg_640x640.v1cAC.40.webp"></image>
+       <text>男友</text>
+  </navigator>
+  <navigator class="nav-item">
+       <image src="https://s10.mogucdn.com/mlcdn/c45406/180827_5jed535bab8ei9d61kl7d6i909beg_100x100.jpg_640x640.v1cAC.40.webp"></image>
+       <text>食品</text>
+  </navigator>
+  <navigator class="nav-item">
+       <image src="https://s10.mogucdn.com/mlcdn/c45406/180827_5jed535bab8ei9d61kl7d6i909beg_100x100.jpg_640x640.v1cAC.40.webp"></image>
+       <text>食品</text>
+  </navigator>
+</view>
+<!--分割线-->
+<view class="divider"></view>
+<!--轮播图-->
+<view class="shop-banner">
+  <swiper autoplay interval="3500" indicator-dots indicator-active-color="#f00">
+    <swiper-item>
+      <image src="https://s10.mogucdn.com/mlcdn/c45406/181022_34c71f37eg4e9f562g4ghib4ge6j5_226x302.jpg" />
+      <image src="https://s10.mogucdn.com/mlcdn/c45406/181017_2hb82935e7638jl6l8129ghc3915b_226x302.png" />     
+    </swiper-item>
+    <swiper-item>
+      <image src="https://s10.mogucdn.com/mlcdn/c45406/181016_15763gbgc52cjc1j25d84hh0k7e90_226x302.jpg" />
+      <image src="https://s10.mogucdn.com/mlcdn/c45406/181016_221he01c3hef55g1el46kc1b3fgg6_226x302.jpg" />
+    </swiper-item>
+  </swiper>
+</view>
+<!--空白区域-->
+<view class="divider"></view>
+<!--商品-->
+<view class="shoplist">
+    <image src="https://s10.mogucdn.com/mlcdn/c45406/180904_79g7dd4id14ii77j2hd068li89i2i_2154x222.png_1200x9999.v1c7E.webp" lazy-load class="img1" />
+    <!--商品-->
+    <view class="list-item" wx:for="{{shoplist}}" wx:key="{{id}}">
+        <view class="item1">
+            <image bindtap="showDetail" data-pid="{{item.id}}"  src="https://s18.mogucdn.com/mlcdn/c45406/171021_041bke73ci23058a169b3ec654dl1_640x960.jpg_360x999.v1c96.40.webp" mode="aspectFill" lazy-load /> 
+            <text class="item-shou">{{item.xiaoshou}}</text>
+            <navigator>
+                <text class="item-title">{{item.title}}</text>
+            </navigator>
+            <navigator>
+                <text class="item-price">￥{{item.price}}</text>  
+                <text class="item-cang">{{item.cang}}☆</text>               
+            </navigator>
+            <navigator>
+                <button>立即购买</button>
+            </navigator>
+        </view>
+        <view class="item1">
+            <image bindtap="showDetail" data-pid="{{item.id}}" src="https://s18.mogucdn.com/mlcdn/c45406/171021_041bke73ci23058a169b3ec654dl1_640x960.jpg_360x999.v1c96.40.webp" mode="aspectFill" lazy-load /> 
+            <text class="item-shou">{{item.xiaoshou}}</text>
+            <navigator>
+                <text class="item-title">{{item.title}}</text>
+            </navigator>
+            <navigator>
+                <text class="item-price">￥{{item.price}}</text>  
+                <text class="item-cang">{{item.cang}}☆</text>               
+            </navigator>
+            <navigator>
+                <button>立即购买</button>
+            </navigator>
+        </view>
+    </view>
+</view>
+<view class="loadmore loading" wx:if="{{load}}">正在加载...</view>
+<view class="meiyou" wx:else>没有更多了</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
